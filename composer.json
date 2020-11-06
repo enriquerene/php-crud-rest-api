@@ -1,0 +1,27 @@
+{
+	"name": "php-crud-rest-api",
+	"description": "A CRUD REST API in modern PHP.",
+	"keywords": [ "crud", "rest" ],
+	"homepage": "https://github.com/enriquerene/php-crud-rest-api.git",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Enrique René Beauxis Reyes",
+			"email": "contato@enriquerene.com.br",
+			"homepage": "https://enriquerene.com.br",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\Test": "tests"
+		}
+	},
+	"require": {
+		"php": "^7.2",
+		"slim/slim": "3.*",
+		"restful-template/sql-manager": "^0.0.1",
+		"restful-template/response-template": "^0.0.1",
+        "guzzlehttp/guzzle": "^7.0"
+	}
+}
